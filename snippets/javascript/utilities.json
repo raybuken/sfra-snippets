@@ -1,0 +1,30 @@
+{
+    "Image Transformation utility module":{
+        "prefix": ["imgt", "imageTransformation","reqImageTransformation"],
+        "body": [
+            "var ImageTransformation = require('*/cartridge/experience/utilities/ImageTransformation');"
+        ],
+        "description": "Image Transformation utility module"
+    },
+    "Page Render Helper":{
+        "prefix":["reqPageRenderHelper", "pageRenderHelper"],
+        "body":[
+            "var PageRenderHelper = require('*/cartridge/experience/utilities/PageRenderHelper');"
+        ],
+        "description": "Page Render Helper"
+    },
+    "Region Model Registry":{
+        "prefix":["reqRegionModelRegistry"],
+        "body": [
+            "var RegionModelRegistry = require('*/cartridge/experience/utilities/RegionModelRegistry');"
+        ],
+        "description": "Region Model Registry"
+    },
+    "Region Model":{
+        "prefix":["reqRegionModel"],
+        "body": [
+            "var RegionModel = require('*/cartridge/experience/utilities/RegionModel');"
+        ],
+        "description": "Region Model"
+    }
+}

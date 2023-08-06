@@ -1,0 +1,163 @@
+{
+    "Require Account Helpers": {
+        "prefix": "reqAccountHelpers",
+        "body": [
+            "var accountHelpers = require('*/cartridge/scripts/helpers/accountHelpers');"
+        ],
+        "description": "Require Account Helpers"
+    },
+    "Require Address Helpers": {
+        "prefix": "reqAddressHelpers",
+        "body": [
+            "var addressHelpers = require('*/cartridge/scripts/helpers/addressHelpers');"
+        ],
+        "description": "Require Address Helpers"
+    },
+    "Require Basket Calculation Helpers": {
+        "prefix": "reqBasketCalculationHelpers",
+        "body": [
+            "var basketCalculationHelpers = require('*/cartridge/scripts/helpers/basketCalculationHelpers');"
+        ],
+        "description": "Require Basket Calculation Helpers"
+    },
+    "Require Basket Validation Helpers": {
+        "prefix": "reqBasketValidationHelpers",
+        "body": [
+            "var basketValidationHelpers = require('*/cartridge/scripts/helpers/basketValidationHelpers');"
+        ],
+        "description": "Require Basket Validation Helpers"
+    },
+    "Require Email Helpers": {
+        "prefix": "reqEmailHelpers",
+        "body": [
+            "var emailHelpers = require('*/cartridge/scripts/helpers/emailHelpers');"
+        ],
+        "description": "Require Email Helpers"
+    },
+    "Require Format Helpers": {
+        "prefix": "reqFormatHelpers",
+        "body": [
+            "var formatHelpers = require('*/cartridge/scripts/helpers/formatHelpers');"
+        ],
+        "description": "Require Format Helpers"
+    },
+    "Require PageMeta Helpers": {
+        "prefix": "reqPageMetaHelpers",
+        "body": [
+            "var pageMetaHelpers = require('*/cartridge/scripts/helpers/pageMetaHelpers');"
+        ],
+        "description": "Require PageMeta Helpers"
+    },
+    "Require Product Helpers": {
+        "prefix": "reqProductHelpers",
+        "body": [
+            "var productHelpers = require('*/cartridge/scripts/helpers/productHelpers');"
+        ],
+        "description": "Require Product Helpers"
+    },
+    "Require Search Helpers": {
+        "prefix": "reqSearchHelpers",
+        "body": [
+            "var searchHelpers = require('*/cartridge/scripts/helpers/searchHelpers');"
+        ],
+        "description": "Require Search Helpers"
+    },
+    "Require Store Helpers": {
+        "prefix": "reqStoreHelpers",
+        "body": [
+            "var storeHelpers = require('*/cartridge/scripts/helpers/storeHelpers');"
+        ],
+        "description": "Require Store Helpers"
+    },
+    "Require Structured Data Helpers": {
+        "prefix": "reqStructuredDataHelpers",
+        "body": [
+            "var structuredDataHelpers = require('*/cartridge/scripts/helpers/structuredDataHelpers');"
+        ],
+        "description": "Require Structured Data Helpers"
+    },
+    "Require url Helper": {
+        "prefix": "reqUrlHelper",
+        "body": [
+            "var urlHelper = require('*/cartridge/scripts/helpers/urlHelpers');"
+        ],
+        "description": "Require Store Helpers"
+    },
+    "Require Account Model Helpers": {
+        "prefix": "reqAccountModelHelpers",
+        "body": [
+            "var accountHelpers = require('*/cartridge/scripts/account/accountHelpers');"
+        ],
+        "description": "Require Account Model Helpers"
+    },
+    "Require Cart Helpers": {
+        "prefix": "reqCartHelpers",
+        "body": [
+            "var cartHelpers = require('*/cartridge/scripts/cart/cartHelpers');"
+        ],
+        "description":"Require Cart Helpers"
+    },
+    "Require Checkout Helpers": {
+        "prefix": "reqCheckoutHelpers",
+        "body": [
+            "var checkoutHelpers = require('*/cartridge/scripts/checkout/checkoutHelpers');"
+        ],
+        "description":"Require Checkout Helpers"
+    },
+    "Require Shipping Helpers": {
+        "prefix": "reqShippingHelpers",
+        "body": [
+            "var shippingHelpers = require('*/cartridge/scripts/checkout/shippingHelpers');"
+        ],
+        "description":"Require Shipping Helpers"
+    },
+    "Require Order Helpers": {
+        "prefix": "reqOrderHelpers",
+        "body": [
+            "var orderHelpers = require('*/cartridge/scripts/order/orderHelpers');"
+        ],
+        "description":"Require Order Helpers"
+    },
+    "Require Cache Middleware":{
+        "prefix": "reqCache",
+        "body": [
+            "var cache = require('*/cartridge/scripts/middleware/cache');"
+        ],
+        "description":"Require Cache Middleware"
+    },
+    "Require Consent Tracking Middleware":{
+        "prefix": "reqConsentTracking",
+        "body": [
+            "var consentTracking = require('*/cartridge/scripts/middleware/consentTracking');"
+        ],
+        "description": "Require Consent Tracking Middleware"
+    },
+    "Require CSRF Middleware":{
+        "prefix": "reqCSRF",
+        "body": [
+            "var csrf = require('*/cartridge/scripts/middleware/csrf');"
+        ],
+        "description": "Require CSRF Middleware"
+    },
+    "Require Page MetaData Middleware":{
+        "prefix": "reqPageMetaData",
+        "body": [
+            "var pageMetaData = require('*/cartridge/scripts/middleware/pageMetaData');"
+        ],
+        "description": "Require Page MetaData Middleware"
+    },
+    "Require User LoggedIn Middleware":{
+        "prefix": "reqUserLoggedIn",
+        "body": [
+            "var userLoggedIn = require('*/cartridge/scripts/middleware/userLoggedIn');"
+        ],
+        "description": "Require User LoggedIn Middleware"
+    },
+    "Require Assets Script":{
+        "prefix": "reqAssets",
+        "body": [
+            "var assets = require('*/cartridge/scripts/assets');"
+        ],
+        "description": "Require Assets Script"
+    }
+}

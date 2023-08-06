@@ -1,0 +1,132 @@
+{
+    "Page Designer component": {
+        "prefix": [
+            "SFCC:PDC"
+        ],
+        "body": [
+            "{",
+            "\t\"name\": \"${1:$TM_FILENAME_BASE}\",",
+            "\t\"description\": \"${2:Basic Page Designer component created by code snippet}\",",
+            "\t\"group\": \"custom_assets\",",
+            "\t\"attribute_definition_groups\": [",
+            "\t\t{",
+            "\t\t\t\"id\": \"content\",",
+            "\t\t\t\"name\": \"Content attributes\",",
+            "\t\t\t\"description\": \"Content attributes\",",
+            "\t\t\t\"attribute_definitions\": [",
+            "\t\t\t\t$3",
+            "\t\t\t]",
+            "\t\t}",
+            "\t],",
+            "\t\"region_definitions\": []",
+            "}"
+        ],
+        "description": "Create a basic page designer component structure."
+    },
+    "Dynamic page designer component": {
+        "prefix": [
+            "SFCC:DPDC"
+        ],
+        "body": [
+            "{",
+            "\t\"name\": \"${1:$TM_FILENAME_BASE}\",",
+            "\t\"description\": \"${2:Basic dynamic Page Designer component created by code snippet}\",",
+            "\t\"group\": \"dynamic\",",
+            "\t\"attribute_definition_groups\": [",
+            "\t\t{",
+            "\t\t\t\"id\": \"dynamicCategory\",",
+            "\t\t\t\"description\": \"Determines banner content\",",
+            "\t\t\t\"attribute_definitions\": [",
+            "\t\t\t\t{",
+            "\t\t\t\t\t\"id\": \"category\",",
+            "\t\t\t\t\t\"name\": \"Category\",",
+            "\t\t\t\t\t\"type\": \"category\",",
+            "\t\t\t\t\t\"required\": false,",
+            "\t\t\t\t\t\"dynamic_lookup\": {",
+            "\t\t\t\t\t\t\"aspect_attribute_alias\" : \"category\"",
+            "\t\t\t\t\t}",
+            "\t\t\t\t}",
+            "\t\t\t]",
+            "\t\t}",
+            "\t],",
+            "\t\"region_definitions\": []",
+            "}"
+        ],
+        "description": "Create a basic dynamic page designer component structure."
+    },
+    "attribute definition boolean from SFCC Page Designer": {
+        "prefix": [
+            "ad:bool"
+        ],
+        "body": [
+            "{",
+            "\t\"id\": \"$1\",",
+            "\t\"name\": \"$2\",",
+            "\t\"description\": \"$3\",",
+            "\t\"type\": \"boolean\"",
+            "}$4"
+        ],
+        "description": "attribute definition boolean from SFCC Page Designer Schema"
+    },
+    "attribute definition string from SFCC Page Designer": {
+        "prefix": [
+            "ad:string"
+        ],
+        "body": [
+            "{",
+            "\t\"id\": \"$1\",",
+            "\t\"name\": \"$2\",",
+            "\t\"description\": \"$3\",",
+            "\t\"type\": \"string\",",
+            "\t\"required\": false",
+            "}$4"
+        ],
+        "description": "attribute definition string from SFCC Page Designer Schema"
+    },
+    "attribute definition image from SFCC Page Designer": {
+        "prefix": [
+            "ad:image", "ad:img"
+        ],
+        "body": [
+            "{",
+            "\t\"id\": \"$1\",",
+            "\t\"name\": \"$2\",",
+            "\t\"description\": \"$3\",",
+            "\t\"type\": \"image\",",
+            "\t\"required\": false",
+            "}$4"
+        ],
+        "description": "attribute definition image from SFCC Page Designer Schema"
+    },
+    "attribute definition url from SFCC Page Designer": {
+        "prefix": [
+            "ad:url"
+        ],
+        "body": [
+            "{",
+            "\t\"id\": \"$1\",",
+            "\t\"name\": \"$2\",",
+            "\t\"description\": \"$3\",",
+            "\t\"type\": \"url\",",
+            "\t\"required\": false",
+            "}$4"
+        ],
+        "description": "attribute definition url from SFCC Page Designer Schema"
+    },
+    "attribute definition enum from SFCC Page Designer": {
+        "prefix": [
+            "ad:enum"
+        ],
+        "body": [
+            "{",
+            "\t\"id\": \"$1\",",
+            "\t\"name\": \"$2\",",
+            "\t\"description\": \"$3\",",
+            "\t\"type\": \"enum\",",
+            "\t\"values\": [$4],",
+            "\t\"defaultValue\": \"$5\"",
+            "}$6"
+        ],
+        "description": "attribute definition enum from SFCC Page Designer Schema"
+    }
+}
