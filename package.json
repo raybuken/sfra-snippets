@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/raybuken/sfra-snippets.git"
   },
   "engines": {
     "vscode": "^1.81.0"
